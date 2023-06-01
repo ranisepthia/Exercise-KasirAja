@@ -1,0 +1,109 @@
+{
+	"id": "b3cfc244-4727-42ab-affe-4a2a1515bbc2",
+	"name": "KasirAja",
+	"timestamp": "2023-06-01T12:36:50.701Z",
+	"collection_id": "17478834-dc1f4e5b-ee59-4039-844c-71d134861aea",
+	"folder_id": 0,
+	"environment_id": "17478834-1b6997fb-c990-42e4-83dc-570f3f3169e0",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-01T12:36:49.007Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b3ed581f-ddf6-4948-b7cc-bb0a7f8282e8",
+			"name": "Registrasi",
+			"url": "https://kasir-api.belajarqa.com/registration",
+			"time": 500,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				500
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "102e3468-cb3d-462e-90f2-317dc92d04b0",
+			"name": "Login",
+			"url": "https://kasir-api.belajarqa.com/authentications",
+			"time": 375,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				375
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c86aa821-1a11-46e9-9c2a-14ada7ec3f98",
+			"name": "Create User",
+			"url": "https://kasir-api.belajarqa.com/users",
+			"time": 379,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Create User": true,
+				"Test Data": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Create User": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test Data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				379
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Create User": true,
+					"Test Data": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1254,
+	"collection": {
+		"requests": [
+			{
+				"id": "b3ed581f-ddf6-4948-b7cc-bb0a7f8282e8",
+				"method": "POST"
+			},
+			{
+				"id": "102e3468-cb3d-462e-90f2-317dc92d04b0",
+				"method": "POST"
+			},
+			{
+				"id": "c86aa821-1a11-46e9-9c2a-14ada7ec3f98",
+				"method": "POST"
+			}
+		]
+	}
+}

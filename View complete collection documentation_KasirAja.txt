@@ -1,0 +1,50 @@
+KasirAja
+Add collection description…
+
+Auth
+Add folder description…
+
+POST
+Registrasi
+https://kasir-api.belajarqa.com/registration
+Add request description…
+
+Body
+raw (json)
+json
+{
+   "name": "Toko Uni",
+   "email": "tokouni@gmail.com",
+   "password": "uni12345"
+}
+
+POST
+Login
+https://kasir-api.belajarqa.com/authentications
+Add request description…
+
+Body
+raw (json)
+json
+{
+   "email": "",
+   "password": "uni12345"
+}
+
+POST
+Create User
+https://kasir-api.belajarqa.com/users
+Add request description…
+
+Authorization
+Bearer Token
+Token
+
+Body
+raw (json)
+json
+{
+   "name": "kasir 1 Bu Nuni",
+   "email": "bununi@gmail.com",
+   "password": "nuni12345"
+}
